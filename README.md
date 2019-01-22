@@ -1,5 +1,5 @@
-
-
+## Pose Estimation
+It is a simpler version of https://github.com/Microsoft/singleshotpose/tree/master/multi_obj_pose_estimation
 ## Required packages:
 - fire
 - torch, torchvision, torchnet
@@ -10,8 +10,8 @@
     usage : python main.py <function> [--args=value,]
     <function> := train | test | help
     example:
-            python main.py train --env='env0701' --lr=0.01
-            python main.py test --dataset='path/to/dataset/'
+            python main.py train  --lr=0.01 ...
+            python main.py test --dataset='path/to/dataset/' ...
             python main.py help
     avaiable args:
 class DefaultConfig(object):
